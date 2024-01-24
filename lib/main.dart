@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:trilla/screen/login.dart';
-import 'package:trilla/screen/test.dart';
+import 'package:trilla/screen/sing_up.dart';
 import 'package:trilla/screen/welcome.dart';
 
 void main() {
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Search(),
+      home: Sing_Up(),
     );
   }
 }
